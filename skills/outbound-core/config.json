@@ -1,0 +1,100 @@
+{
+  "kit_version": "0.2.0",
+  "sender": {
+    "name": "",
+    "email": "",
+    "company": "",
+    "greeting": "Hi {first_name},",
+    "signoff": ""
+  },
+  "volume": {
+    "new_leads_per_day": 20,
+    "max_new_leads_per_day": 50,
+    "max_sends_per_day": 30,
+    "skip_if_contacted_within_days": 90
+  },
+  "channels": {
+    "email": true,
+    "linkedin": false,
+    "linkedin_cold_starts_with": "connection_note"
+  },
+  "email_provider": "gmail",
+  "email_send_mode": "send",
+  "lead_source": "apollo",
+  "crm": "hubspot",
+  "booking_link": "",
+  "pipeline_mode": "full",
+  "autonomy": {
+    "default_level": 2,
+    "segments": {},
+    "spot_check_rate": 0.1,
+    "promote_after": {
+      "untouched_rate": 0.8,
+      "weeks": 3,
+      "min_sends": 30
+    },
+    "demote_if_spot_edit_rate_above": 0.3
+  },
+  "sequence": {
+    "max_touches": 3,
+    "spacing_days": [0, 4, 8]
+  },
+  "limits": {
+    "email": {
+      "min_words": 50,
+      "target_words": 80,
+      "cap_words": 90
+    },
+    "email_followup": {
+      "min_words": 35,
+      "target_words": 65,
+      "cap_words": 75
+    },
+    "linkedin": {
+      "min_words": 25,
+      "target_words": 40,
+      "cap_words": 50
+    },
+    "linkedin_followup": {
+      "min_words": 20,
+      "target_words": 40,
+      "cap_words": 45
+    },
+    "linkedin_connect": {
+      "cap_chars": 300
+    },
+    "floor_words": {
+      "email": 35,
+      "linkedin": 20
+    },
+    "carry_bonus_words": 25,
+    "subject_max_words": 5,
+    "reading_grade_warn": 7,
+    "reading_grade_fail": 9,
+    "signoff_max_words": 6,
+    "batch_repeat_share": 0.25
+  },
+  "queue": {
+    "max_age_days": 14
+  },
+  "research": {
+    "max_sources_per_lead": 5,
+    "signal_max_age_days": 90
+  },
+  "learning": {
+    "examples_per_draft": 5,
+    "max_examples": 200,
+    "max_learned_rules": 15,
+    "rule_evidence": 3
+  },
+  "schedule": {
+    "daily_batch": "weekdays 06:00",
+    "followups": "weekdays 07:00",
+    "approval_sweep": "every 30 minutes, 08:00 to 18:00, weekdays",
+    "reply_triage": "12:00 and 16:00, weekdays",
+    "weekly_report": "Fridays 15:00"
+  },
+  "deliverability": {
+    "separate_domain_above_per_day": 30
+  }
+}

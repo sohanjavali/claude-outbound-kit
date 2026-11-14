@@ -1,0 +1,108 @@
+# Banned phrases. One per line, case doesn't matter, matched as whole words.
+# Lines starting with # are comments.
+# Lines under [first-touch] are only banned on touch 1 (meeting asks).
+# Add your own at the bottom. The lint script fails any draft that contains one.
+
+# Openers and filler
+hope this finds you well
+hope you're doing well
+hope you are doing well
+hope all is well
+i hope this email finds you
+i trust this
+i came across your profile
+i came across your company
+i wanted to reach out
+reaching out because
+just reaching out
+just following up
+just checking in
+just circling back
+just bumping
+circling back
+bumping this
+touching base
+per my last email
+never heard back
+quick question
+i know you're busy
+i know you are busy
+sorry to bother you
+pick your brain
+don't hesitate to
+feel free to reach out
+let me know if you have any questions
+looking forward to hearing from you
+i look forward to hearing from you
+dear sir or madam
+to whom it may concern
+
+# Hype and words that read as generated
+best-in-class
+cutting-edge
+delve
+empower
+game changer
+game-changer
+in today's competitive
+in today's fast-paced
+it goes without saying
+leverage our
+meticulous
+needless to say
+next-level
+revolutionary
+revolutionize
+robust solution
+seamless
+seamlessly
+showcase
+skyrocket
+supercharge
+synergies
+synergy
+tapestry
+testament to
+underscore
+world-class
+10x your
+at the end of the day
+as an ai
+navigate the complexities
+
+# Compliments (state the fact instead)
+amazing work
+love what you're doing
+love what you are doing
+impressed by
+big fan of
+congrats on
+congratulations on
+
+# Pressure
+guaranteed
+risk-free
+act now
+limited time
+
+[first-touch]
+book a call
+book a meeting
+book a time
+schedule a call
+schedule a meeting
+hop on a call
+jump on a call
+set up a call
+quick call
+quick chat
+grab time
+calendar link
+are you free
+15 minutes of your time
+15-minute call
+20-minute call
+30-minute call
+a quick demo
+a demo
+demo call
